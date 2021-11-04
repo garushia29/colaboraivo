@@ -1,0 +1,151 @@
+
+.containers {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100vh;
+    /* background-image: url("../img/diagram_fondo.jpg");
+    background-size: 100% 100%; */
+    background-color: #FBFCFC;
+    position: relative;
+    display: block;
+}
+
+#diagramContainer {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 90%;
+    /* background-image: url("../img/diagram_fondo.jpg");
+    background-size: 100% 100%; */
+    background-color: #FBFCFC;
+    position: relative;
+}
+
+.inspectorDiagram {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    background-color: #5e6366;
+    width: 200px;
+    height: 100%;
+    display: block;
+}
+
+.pizarraDiagram {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #5e6366;
+    width: 180px;
+    height: 80%;
+    display: block;
+}
+
+#diagramContainer .itemContainer {
+    position: relative;
+    width: 105px;
+    height: 75px;
+    left: 10px;
+    top: 20px;
+    background-color: white;
+    cursor: move;
+}
+
+.footerContainer {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 10%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #E8E8E8;
+    padding: 0 30px
+}
+
+.modalPrimeReact .p-dialog-header {
+    padding: 0 !important;
+    padding-left: 5px !important;
+    padding-bottom: 2px !important;
+    background-color: rgb(97, 84, 156) !important;
+    color: white !important;
+    /* border-radius: 100px/50px !important;
+    text-align: center !important;
+    border: 2px solid #e8e8e8 !important;
+    position: relative !important;
+    top: 35px !important; */
+}
+
+.modalPrimeReact .p-dialog-footer {
+    padding: 0 !important;
+    padding-left: 5px !important;
+    padding-bottom: 2px !important;
+    background-color: rgb(97, 84, 156) !important;
+    color: white !important;
+    max-height: 100px !important;
+    overflow-y: auto;
+    display: flex;
+}
+
+.modalPrimeReact.circular .p-dialog-header {
+    padding: 0 !important;
+    padding-left: 5px !important;
+    padding-bottom: 2px !important;
+    background-color: rgb(97, 84, 156) !important;
+    color: white !important;
+    border-radius: 100px/50px !important;
+    text-align: center !important;
+    border: 2px solid #e8e8e8 !important;
+    position: relative !important;
+    top: 25px !important;
+}
+
+.modalPrimeReact.circular .p-dialog-footer {
+    padding: 0 !important;
+    padding-left: 5px !important;
+    padding-bottom: 2px !important;
+    background-color: rgb(97, 84, 156) !important;
+    color: white !important;
+    max-height: 100px !important;
+    overflow-y: auto;
+    display: flex;
+    border-bottom-left-radius: 20 !important;
+    border-bottom-right-radius: 20 !important;
+}
+
+
+
+.modalPrimeReact.darks .p-dialog-header {
+    padding: 0 !important;
+    padding-left: 5px !important;
+    padding-bottom: 2px !important;
+    background-color: #99A3A4 !important;
+    color: white !important;
+}
+
+.modalPrimeReact.darks .p-dialog-footer {
+    padding: 0 !important;
+    padding-left: 5px !important;
+    padding-bottom: 2px !important;
+    background-color: #99A3A4 !important;
+    color: white !important;
+    max-height: 100px !important;
+    overflow-y: auto;
+    display: flex;
+}
+
+[data-theme='compact'] .site-collapse-custom-collapse .site-collapse-custom-panel,
+.site-collapse-custom-collapse .site-collapse-custom-panel {
+  margin-bottom: 24px !important;
+  overflow: hidden !important;
+  border: 0px !important;
+  border-radius: 2px !important;
+  background-color: #5e6366 !important; 
+  color: #dddfde !important;
+}
